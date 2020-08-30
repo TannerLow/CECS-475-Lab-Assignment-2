@@ -4,21 +4,19 @@ using System.Text;
 
 namespace LabAssignment2_part2
 {
-    interface HealthPlan
+    interface IHealthPlan
     {
-        double annualCharge
+        double AnnualCharge
         {
             get;
-            set;
         }
 
-        double deductionAmount
+        double DeductionAmount
         {
             get;
-            set;
         }
 
-        PlanType plan
+        PlanType Plan
         {
             get;
         }

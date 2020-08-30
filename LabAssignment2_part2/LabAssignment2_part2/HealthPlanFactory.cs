@@ -6,9 +6,9 @@ namespace LabAssignment2_part2
 {
     class HealthPlanFactory
     {
-        public static HealthPlan getHealthPlan(PlanType planType)
+        public static IHealthPlan GetHealthPlan(PlanType planType)
         {
-            HealthPlan plan = null;
+            IHealthPlan plan = null;
 
             switch (planType)
             {
@@ -16,13 +16,13 @@ namespace LabAssignment2_part2
                     plan = new HMO();
                     break;
 
-                /*case PPO:
+                case PlanType.PPO:
                     plan = new PPO();
                     break;
 
-                case ObamaCare:
+                case PlanType.ObamaCare:
                     plan = new ObamaCare();
-                    break;*/
+                    break;
             }
 
             return plan;

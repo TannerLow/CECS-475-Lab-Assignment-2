@@ -6,21 +6,48 @@ namespace LabAssignment2_part2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Factory Demo");
+            IHealthPlan plan = null;
+            while (true)
+            {
+                Console.WriteLine("==Factory Demo==\nWhich plan would you like info on?\n" +
+                "> HMO\n> PPO\n> ObamaCare\nType \"exit\" to quit program.\n");
+                string input = Console.ReadLine();
+                switch (input)
+                {
+                    case "HMO":
+                        plan = HealthPlanFactory.GetHealthPlan(PlanType.HMO);
+                        break;
 
-            HealthPlan myPlan = HealthPlanFactory.getHealthPlan(PlanType.HMO);
+                    case "PPO":
+                        plan = HealthPlanFactory.GetHealthPlan(PlanType.PPO);
+                        break;
 
-            DisplayPlan(myPlan);
-            myPlan.annualCharge    += 1000D;
-            myPlan.deductionAmount -= 100D;
-            DisplayPlan(myPlan);
+                    case "ObamaCare":
+                        plan = HealthPlanFactory.GetHealthPlan(PlanType.ObamaCare);
+                        break;
+
+                    case "exit": 
+                        return;
+
+                    default:
+                        Console.WriteLine("Invalid Input, try again\n");
+                        break;
+                }
+
+                if(plan != null)
+                {
+                    Console.WriteLine("Current Plan:");
+                    DisplayPlan(plan);
+                }
+            }
+            
         }
 
-        static void DisplayPlan(HealthPlan plan)
+        static void DisplayPlan(IHealthPlan plan)
         {
-            Console.WriteLine("Annual    : " + plan.annualCharge);
-            Console.WriteLine("Dedeuciton: " + plan.deductionAmount);
-            Console.WriteLine("Plan      : " + plan.plan + "\n");
+            Console.WriteLine("Annual    : " + plan.AnnualCharge);
+            Console.WriteLine("Dedeuciton: " + plan.DeductionAmount);
+            Console.WriteLine("Plan      : " + plan.Plan + "\n");
         }
     }
 }
