@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
 
 namespace LabAssignment2_part2
 {
     // Factory class for creating different health plan objects.
     class HealthPlanFactory
     {
+        //IHealthPlan factory for creating concrete HealthPlans based on the given PlanType enum
         public static IHealthPlan GetHealthPlan(PlanType planType)
         {
             IHealthPlan plan = null;

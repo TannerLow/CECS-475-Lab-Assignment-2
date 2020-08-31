@@ -1,32 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
 
 namespace LabAssignment2_part2
 {
-    // Constructor defines ObamaCare plan object members.
+    //Concrete HealthPlan class Obamacare corresponding to PlanType.ObamaCare
     class ObamaCare : IHealthPlan
     {
+        //private member variables
         private readonly double _annualCharge, _deductionAmount;
         private const PlanType _plan = PlanType.ObamaCare;
 
-        // Define private members.
+        //Default constructor
         public ObamaCare()
         {
             _annualCharge = 15000.00;
             _deductionAmount = 2000.00;
         }
 
-        // Getters.
+        //_annualCharge property, allows get
         public double AnnualCharge
         {
             get => _annualCharge;
         }
+
+        //_deductionAmount property, allows get
         public double DeductionAmount
         {
             get => _deductionAmount;
         }
 
+        //_plan property, allows get
         public PlanType Plan
         {
             get => _plan;

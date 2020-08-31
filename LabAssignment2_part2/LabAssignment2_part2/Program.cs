@@ -4,12 +4,13 @@ namespace LabAssignment2_part2
 {
     class Program
     {
+        //Program's driver code
         static void Main(string[] args)
         {
             // Create HealthPlan interface.
             IHealthPlan plan = null;
 
-            // Prompt user to enter the desired health plan information.
+            //Asks user for a health plan and displays info about the plan
             while (true)
             {
                 Console.WriteLine("==Factory Demo==\nWhich plan would you like info on?\n" +
@@ -32,6 +33,7 @@ namespace LabAssignment2_part2
                         plan = HealthPlanFactory.GetHealthPlan(PlanType.ObamaCare);
                         break;
 
+                    //exit break out of the Main method and ends the program
                     case "exit": 
                         return;
 
@@ -39,23 +41,16 @@ namespace LabAssignment2_part2
                         Console.WriteLine("Invalid Input, try again\n");
                         break;
                 }
-
-                // Output plan information to console. 
+                //If a valid plan exists then display info about it
                 if(plan != null)
                 {
                     Console.WriteLine("Current Plan:");
-                    DisplayPlan(plan);
+                    Console.WriteLine("Annual    : " + plan.AnnualCharge);
+                    Console.WriteLine("Dedeuciton: " + plan.DeductionAmount);
+                    Console.WriteLine("Plan      : " + plan.Plan + "\n");
                 }
             }
             
-        }
-
-        // Method that displays the various attributes of the selected plan.
-        static void DisplayPlan(IHealthPlan plan)
-        {
-            Console.WriteLine("Annual    : " + plan.AnnualCharge);
-            Console.WriteLine("Deduction: " + plan.DeductionAmount);
-            Console.WriteLine("Plan      : " + plan.Plan + "\n");
         }
     }
 }
