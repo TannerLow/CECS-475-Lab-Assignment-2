@@ -11,3 +11,16 @@ C:\Users\Tanner\Documents\Github\CECS-475-Lab-Assignment-2\LabAssignment2_part2\
 C:\Users\Tanner\Documents\Github\CECS-475-Lab-Assignment-2\LabAssignment2_part2\LabAssignment2_part2\obj\Debug\netcoreapp3.1\LabAssignment2_part2.dll
 C:\Users\Tanner\Documents\Github\CECS-475-Lab-Assignment-2\LabAssignment2_part2\LabAssignment2_part2\obj\Debug\netcoreapp3.1\LabAssignment2_part2.pdb
 C:\Users\Tanner\Documents\Github\CECS-475-Lab-Assignment-2\LabAssignment2_part2\LabAssignment2_part2\obj\Debug\netcoreapp3.1\LabAssignment2_part2.genruntimeconfig.cache
+C:\Users\jda_1\Source\Repos\TannerLow\CECS-475-Lab-Assignment-2\LabAssignment2_part2\LabAssignment2_part2\bin\Debug\netcoreapp3.1\LabAssignment2_part2.exe
+C:\Users\jda_1\Source\Repos\TannerLow\CECS-475-Lab-Assignment-2\LabAssignment2_part2\LabAssignment2_part2\bin\Debug\netcoreapp3.1\LabAssignment2_part2.deps.json
+C:\Users\jda_1\Source\Repos\TannerLow\CECS-475-Lab-Assignment-2\LabAssignment2_part2\LabAssignment2_part2\bin\Debug\netcoreapp3.1\LabAssignment2_part2.runtimeconfig.json
+C:\Users\jda_1\Source\Repos\TannerLow\CECS-475-Lab-Assignment-2\LabAssignment2_part2\LabAssignment2_part2\bin\Debug\netcoreapp3.1\LabAssignment2_part2.runtimeconfig.dev.json
+C:\Users\jda_1\Source\Repos\TannerLow\CECS-475-Lab-Assignment-2\LabAssignment2_part2\LabAssignment2_part2\bin\Debug\netcoreapp3.1\LabAssignment2_part2.dll
+C:\Users\jda_1\Source\Repos\TannerLow\CECS-475-Lab-Assignment-2\LabAssignment2_part2\LabAssignment2_part2\bin\Debug\netcoreapp3.1\LabAssignment2_part2.pdb
+C:\Users\jda_1\Source\Repos\TannerLow\CECS-475-Lab-Assignment-2\LabAssignment2_part2\LabAssignment2_part2\obj\Debug\netcoreapp3.1\LabAssignment2_part2.csprojAssemblyReference.cache
+C:\Users\jda_1\Source\Repos\TannerLow\CECS-475-Lab-Assignment-2\LabAssignment2_part2\LabAssignment2_part2\obj\Debug\netcoreapp3.1\LabAssignment2_part2.AssemblyInfoInputs.cache
+C:\Users\jda_1\Source\Repos\TannerLow\CECS-475-Lab-Assignment-2\LabAssignment2_part2\LabAssignment2_part2\obj\Debug\netcoreapp3.1\LabAssignment2_part2.AssemblyInfo.cs
+C:\Users\jda_1\Source\Repos\TannerLow\CECS-475-Lab-Assignment-2\LabAssignment2_part2\LabAssignment2_part2\obj\Debug\netcoreapp3.1\LabAssignment2_part2.csproj.CoreCompileInputs.cache
+C:\Users\jda_1\Source\Repos\TannerLow\CECS-475-Lab-Assignment-2\LabAssignment2_part2\LabAssignment2_part2\obj\Debug\netcoreapp3.1\LabAssignment2_part2.dll
+C:\Users\jda_1\Source\Repos\TannerLow\CECS-475-Lab-Assignment-2\LabAssignment2_part2\LabAssignment2_part2\obj\Debug\netcoreapp3.1\LabAssignment2_part2.pdb
+C:\Users\jda_1\Source\Repos\TannerLow\CECS-475-Lab-Assignment-2\LabAssignment2_part2\LabAssignment2_part2\obj\Debug\netcoreapp3.1\LabAssignment2_part2.genruntimeconfig.cache

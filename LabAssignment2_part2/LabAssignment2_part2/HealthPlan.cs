@@ -6,6 +6,7 @@ namespace LabAssignment2_part2
 {
     interface IHealthPlan
     {
+        // IHealthPlan Interface Properties:
         double AnnualCharge
         {
             get;
