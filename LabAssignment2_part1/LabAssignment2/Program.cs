@@ -8,9 +8,9 @@ namespace LabAssignment2
         {
             // initialize two sets
             Console.WriteLine("Input Set A");
-            IntegerSet set1 = new IntegerSet();
+            IntegerSet set1 = InputSet();
             Console.WriteLine("\nInput Set B");
-            IntegerSet set2 = new IntegerSet();
+            IntegerSet set2 = InputSet();
 
             IntegerSet union = set1.Union(set2);
             IntegerSet intersection = set1.Intersection(set2);
@@ -51,5 +51,20 @@ namespace LabAssignment2
             Console.WriteLine("\nNew Set contains elements:");
             Console.WriteLine(set3.ToString());
         } // end Main
+
+        //static method for creating IntegerSets
+        static IntegerSet InputSet()
+        {
+            IntegerSet set = new IntegerSet();
+            while (true)
+            {
+                Console.Write("Enter number (-1 to end): ");
+                int input = Convert.ToInt32(Console.ReadLine());
+                if (input == -1)
+                    break;
+                set.InsertElement(input);
+            }
+            return set;
+        }
     }
 }
